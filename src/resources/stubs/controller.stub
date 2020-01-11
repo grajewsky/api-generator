@@ -1,0 +1,29 @@
+<?php 
+namespace {{controllerNamespace}}
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\{{modelName}};
+
+use {{resourceNamespace}};
+use {{resourceCollectionNamespace}};
+
+class {{controllerName}}Controller extends Controller
+{
+    /**
+    * @param Request $request
+    */
+    public function index(Request $request)
+    {
+        {{indexBody}}  
+    }
+
+    /**
+    * @param Request $request
+    * @param int $id
+    */
+    public function get(Request $request, int $id)
+    {
+        {{getBody}}
+    }
+}
