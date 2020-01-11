@@ -1,0 +1,24 @@
+{
+    "name": "gsky/api-generator",
+    "description": "Laravel Api resources generator",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gsky\\ApiGenerator\\" : "src/"
+        }
+    },
+    "require": {
+        "php": "7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Lukas Grajewsky",
+            "email": "grajewski.lukasz@wp.pl"
+        }
+    ],
+    "minimum-stability": "stable"
+}
